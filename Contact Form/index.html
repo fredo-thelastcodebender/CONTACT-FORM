@@ -7,6 +7,7 @@
     <title>CONTACT FORM</title>
     <link rel="shortcut icon" href="Form logo.jpg">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css">
 </head>
 <body>
 
@@ -33,8 +34,73 @@
     </div>
 
     <div class="contact-form">
+      <div class="form">
+        <h1>CONTACT US</h1>
+        <p>We're happy to answer any question you may have or provide you with an estimate.<br> Just send us a message in the form below with your questions.</p>
+
+        <form class="" action="index.html" method="post">
+          <fieldset>
+            <label class="form-label">YOUR NAME <input type="text" name="first-name" required  autofocus/> </label>
+            <label class="form-label">YOUR EMAIL <input type="email" name="email" required /> </label>
+            <label class="form-label">SUBJECT  <input type="`text`" name="subject" required /> </label>
+            <label class="form-label">YOUR MESSAGE
+              <textarea name="message" rows="5" cols="50"></textarea>
+            </label>
+          </fieldset>
+          <button type="submit" name="form-submit">Send</button>
+        </form>
+      </div>
+
+      <div class="contact-info">
+        <label for="email" class="info-label">EMAIL
+          <p>  <a href="mailto:fredprosper2020@gmail.com">thevintagestyleco@gmail.com</a> </p>
+        </label>
+        <hr id="info-hr">
+        <label for="phone" class="info-label">PHONE
+          <p> <a href="call:09032870279">09032870279</a> </p>
+        </label>
+        <hr id="info-hr">
+        <label for="social-media" class="info-label" >SOCIAL MEDIA
+          <ul>
+            <li> <a href="https://www.pinterest.com/fredprosper2020/">Pinterest</a> </li>
+            |
+            <li> <a href="#">Linkdln</a> </li>
+            |
+            <li> <a href="https://twitter.com/fredo_tech">Twitter</a> </li>
+
+          </ul>
+        </label>
+        <hr id="info-hr">
+
+      </div>
+
 
     </div>
 
+    <footer>
+      <ul>
+        <li><a href="#">PROJECTS</a></li>
+
+        <li><a href="#">NEWS</a></li>
+
+        <li><a href="#">ABOUT</a></li>
+
+        <li><a href="#">CONTACT US</a></li>
+
+        <div class="social-icons">
+      <li> <a href="#"><i class="fa-brands fa-facebook-f"></i></a> </li>
+      <li> <a href="#"><i class="fa-brands fa-twitter"></i></a> </li>
+      <li> <a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+      <li> <a href="#"><i class="fa-solid fa-wifi"></i></a> </li>
+    </div>
+
+      </ul>
+
+      <div class="text">
+        <p>Made with <i class="fa-solid fa-heart" id="heart-icon"></i> by Fredó</p>
+
+      </div>
+
+    </footer>
 </body>
 </html>
